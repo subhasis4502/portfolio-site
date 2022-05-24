@@ -57,6 +57,7 @@ h1{
 
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5{
@@ -82,7 +83,7 @@ a:hover{
     color: var(--color-white);
 }
 
-btn{
+a.btn{
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -93,13 +94,13 @@ btn{
     transition:  var(--transition);
 }
 
-btn:hover{
+a.btn:hover{
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
 }
 
-.btn-primary{
+a.btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);
 }
@@ -108,4 +109,26 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+/* ========== MEDIA QUERY (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+
+    section{
+        margin-top: 6rem;
+    }
+}
+
+/* ========== MEDIA QUERY (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
 }
