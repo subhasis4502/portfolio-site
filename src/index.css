@@ -22,7 +22,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 html{
@@ -57,7 +57,6 @@ h1{
 
 section{
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2, section > h5{
@@ -83,7 +82,7 @@ a:hover{
     color: var(--color-white);
 }
 
-a.btn{
+a.btn, .btn{
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -94,13 +93,13 @@ a.btn{
     transition:  var(--transition);
 }
 
-a.btn:hover{
+a.btn:hover, .btn:hover{
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
 }
 
-a.btn-primary{
+a.btn-primary, .btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);
 }
