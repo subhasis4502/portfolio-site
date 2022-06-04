@@ -36,6 +36,11 @@ header{
     background: var(--color-primary);
 }
 
+.header__socials-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
 /* ========= ME ========== */
 .me{
     background: linear-gradient(var(--color-primary), transparent);
