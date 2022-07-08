@@ -16,7 +16,7 @@ const Header = () => {
             className="text-light"
             onInit={(typewriter) => {
               typewriter
-                .typeString("Android Developer")
+                .typeString("Web Developer")
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("Full Stack Developer")
